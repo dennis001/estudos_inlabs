@@ -1,0 +1,50 @@
+perform_action('drag', 0, 0, 80, 0, 20)
+perform_action('drag', 0, 0, 80, 0, 20)
+perform_action('drag', 0, 0, 80, 0, 10)
+perform_action('drag', 0, 0, 80, 0, 10)
+perform_action('drag', 0, 0, 60, 0, 10)
+perform_action('drag', 0, 0, 60, 0, 10)
+perform_action('drag', 0, 0, 40, 0, 10)
+perform_action('drag', 0, 0, 90, 0, 10)
+perform_action('drag', 0, 0, 95, 0, 10)
+exit
+start_test_server_in_background
+wait_for_elements_exist(["* text:'spring-boot'"], :timeout => 40)
+wait_for_elements_exist(["* text:'spring-boot'"])
+q
+query("*",:id)
+query("*":,id)
+query("*",:id)
+start_test_server_in_background
+
+perform_action('drag', 0, 0, 95, 0, 10)
+exit
+start_test_server_in_background
+perform_action('drag', 0, 0, 75, 0, 10)
+touch("* text:'spring-boot'")
+query"*"
+exit
+exit
+start_test_server_in_background
+perform_action('drag', 0, 0, 75, 0, 10)
+touch("* text:'spring-boot'")
+query"*"
+exit
+start_test_server_in_background
+perform_action('drag', 0, 0, 75, 0, 10)
+touch("* text:'spring-boot'")
+query'*"
+q
+query"*"
+'
+query"*"
+query"*"
+touch("* text:'spring-boot'")
+exit
+start_test_server_in_background
+page(Geral).down_view(12)
+perform_action('drag', 0, 0, 75, 0, 10)
+touch("* text:'spring-boot'")
+query"*"
+query"*"
+exit

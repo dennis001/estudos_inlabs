@@ -1,0 +1,26 @@
+start_test_server_in_background
+query"*"
+q
+touch("* text:'AREA ONLINE'")
+touch("android.widget.Button").first
+touch ("android.widget.Button").first
+exit
+start_test_server_in_background
+touch(["* webView css {text CONTAINS 'AREA ONLINE'}"], :timeout => 20)
+wait_for_element_exist(["*text:'AREA ONLINE'"], :timeout => 40)
+wait_for_elements_exist(["* text:'AREA ONLINE'"], :timeout => 40)
+wait_for_elements_exist(["* text:'AREA ONLINE'"], :timeout => 10)
+query("* text")
+touch (
+query('* text')
+query("android.widget.Button")
+query("android.widget.Button{text CONTAINS AREA ONLINE}")
+touch (query("android.widget.Button{text CONTAINS AREA ONLINE}"))
+touch (query("android.widget.Button{text CONTAINS AREA ONLINE}")).second
+touch (query("android.widget.Button{text CONTAINS AREA ONLINE}")).Second
+touch (query("android.widget.Button{text CONTAINS AREA ONLINE}")).[0]
+touch (query("android.widget.Button{text CONTAINS AREA ONLINE}")).[1]
+touch (query("android.widget.Button{text CONTAINS AREA ONLINE}"))[0]
+touch (query("android.widget.Button{text CONTAINS AREA ONLINE}"))[2]
+touch (query("android.widget.Button{text CONTAINS AREA ONLINE}"))[3]
+exit

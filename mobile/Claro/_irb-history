@@ -1,0 +1,50 @@
+touch("* id:'btContinue)
+touch("* id:'btContinue'")
+q
+exit
+q
+exit
+start_test_server_in_background
+touch("android.widget.ImageButton")
+touch("* text:'Cadastre-se'")
+touch("android.widget.EditText")
+keybiard_enter_text('Faker::CPF.number # => "11438374798"')
+keyboard_enter_text('Faker::CPF.number # => "11438374798"')
+keyboard_enter_text('Faker::CPF.number # => "11438374798"')
+keyboard_enter_text('Faker::CPF.number # => "11438374798"')
+touch("* id:'btContinue'")
+touch("* text:'E-mail'")
+touch('android.widget.EditText')
+keyboard_enter_text("Faker::Internet.email")
+keyboard_enter_text('Faker::Internet.email')
+keyboard_enter_text(Faker::Internet.email)
+keyboard_enter_text(Faker::Internet.email)
+keyboard_enter_text(Faker::Number.number(10))
+Faker::Number.number(10)
+keyboard_enter_text('Faker::Number.number(10)')
+keyboard_enter_text_Faker::Number.number(10)
+keyboard_enter_text.Faker::Number.number(10)
+exit
+start_test_server_in_background
+touch("android.widget.ImageButton")
+touch("* text:'Cadastre-se'")
+touch("android.widget.EditText")
+keyboard_enter_text(Faker::CPF.number)
+keyboard_enter_text(Faker::CPF.number)
+exit
+start_test_server_in_background
+touch("android.widget.ImageButton")
+touch("* text:'Cadastre-se'")
+touch("android.widget.EditText")
+keyboard_enter_text(Faker::CPF.number)
+exit
+exit
+start_test_server_in_background
+touch("android.widget.ImageButton")
+touch("* text:'Cadastre-se'")
+touch("* text:'Cadastre-se'")
+touch("android.widget.ImageButton")
+touch("* text:'Cadastre-se'")
+ touch("android.widget.EditText")
+keyboard_enter_text(Faker::CPF.number)
+exit

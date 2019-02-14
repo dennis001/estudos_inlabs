@@ -1,0 +1,50 @@
+flash("* id:'fragmentRegulation_wvRegulation'")
+flash("* id:'fragmentRegulation_wvRegulation'")
+flash("* id:'navigationBarBackground'")
+flash("* id:'screenSingleFragment_mainLayout'")
+flash("* id:'screenSingleFragment_mainLayout'")
+query"*"
+q
+query("* id:'action_bar_root'")
+touch("* id:'action_bar_root'")
+query"*"
+q
+query("* id:'content'")
+touch("* id:'content'")
+query"*"
+query("android.widget.EditText")
+query("* id:'content'")
+flash("* id:'content'")
+flash("* id:'toolbar'")
+flash("* id:'android.widget.ImageButton'")
+flash("android.widget.ImageButton")
+flash("android.view.View")
+flash("br.com.mobicare.cielo")
+flash("android.widget.EditText")
+flash("android.widget.Button")
+exit
+start_test_server_in_background
+touch("android.widget.ImageButton")
+exit
+start_test_server_in_background
+start_test_server_in_background
+touch("android.widget.ImageView")
+touch("* text:'CENTRAL DE AJUDA'")
+touch("* id:'compHelpHeader_lblTitle'")
+touch("webView css:'input#neoFormAIInput'")
+keyboard_enter_text("como fazer o pedido de um novo cartao?")
+touch("webView css:'class#searchButtom'")
+query^("webView css:'class#searchButtom'")
+press_enter_button
+exit
+start_test_server_in_background
+touch("android.widget.ImageView")
+wait_for_elements_exist(["* text:'CIELO MOBILE'"], :timeout
+query("* text:'CIELO MOBILE'")
+q
+q
+exit
+exit
+query("* text:'CIELO MOBILE'")
+wait_for_elements_exist(["* id:'compMenuList_cielo_mobile_text'"], :timeout => 80)
+exit

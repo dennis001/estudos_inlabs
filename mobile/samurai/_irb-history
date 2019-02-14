@@ -1,0 +1,20 @@
+reinstall_apps
+exit
+reinstall_apps
+exit
+reinstall_apps
+exit
+reinstall_apps
+exit
+start_test_server_in_background
+query"*"
+query("* text:'Game'")
+touch("* text:Game'")
+xit
+exit
+start_test_server_in_background
+start_test_server_in_background
+query"*"
+clear
+adb logcat
+exit

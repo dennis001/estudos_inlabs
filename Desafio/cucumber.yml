@@ -1,0 +1,5 @@
+default: --no-source --color --format pretty
+
+dario: -t @daily -t @cadastro
+
+regressao: -t @cadastro,@editar,deletar -f html -o html_report.html
