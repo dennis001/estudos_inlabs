@@ -21,8 +21,6 @@ Funcionalidade: Formulário de Contato
 		#E a mensagem "<Email_invalid>" abaixo do campo correspondente
 
 			Exemplos: 
-				|	nome		 |		email		  |	subject |	message		|	resultado	|	
-				| 		         | jose2017@gmail.com | teste 	|   teste 		|Please fill the require field.|
-				|	Jose	     | 					  | teste	|   teste 		|Email address seems invalid.|
-
-
+				|	nome		 |		email		  |	subject |	message		|	resultado	       |	
+				| 		         | jose2017@gmail.com 		  | teste 	|   teste 		|Please fill the require field.|
+				|	Jose	     	 | 			          | teste	|   teste 		|Email address seems invalid.  |
